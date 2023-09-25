@@ -2,7 +2,8 @@ import { LightningElement,api } from 'lwc';
 import historyTrackingController from '@salesforce/apex/HistoryTrackingController.historyTrackingMethod';
 //import historyTracking from '@salesforce/apex/HistoryTracking.historyTrackingMethod';
 import activityTracking from '@salesforce/apex/HistoryTrackingController.activityTrackingMethod';
-
+//changed for JIRA-123
+//another change for Jira-123
 
 export default class HistoryComponent extends LightningElement {
     list=[];
